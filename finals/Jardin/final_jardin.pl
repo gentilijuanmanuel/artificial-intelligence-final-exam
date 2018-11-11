@@ -18,7 +18,8 @@ menu :-
     writeln("3. Salir."),
     read(Opcion),
     Opcion \= 3,
-    ejercicio(Opcion).
+    ejercicio(Opcion),
+    menu.
 
 menu :- writeln("Hasta luego! :)").
 
